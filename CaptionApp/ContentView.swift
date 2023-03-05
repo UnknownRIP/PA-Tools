@@ -37,7 +37,7 @@ struct ImagePicker: UIViewControllerRepresentable {
                     //UIGraphicsEndImageContext()
                     //END CROPPING FUNCTION
                     //parent.selectedImage = image}
-                //This was a test function to autocrop the photos that were taken
+                //This was a test function to autocrop the photos that were taken, not currently implimented.
             
             if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
                 parent.selectedImage = image
